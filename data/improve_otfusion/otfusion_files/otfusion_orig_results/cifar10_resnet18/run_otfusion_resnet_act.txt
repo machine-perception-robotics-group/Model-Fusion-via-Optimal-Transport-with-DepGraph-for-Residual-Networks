@@ -1,0 +1,81 @@
+# 結果を得るのに使用したコマンド
+# OTFusionの公式リポジトリ（https://github.com/sidak/otfusion）を使用を使用
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.0
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.1
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.2
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.3
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.4
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.5
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.6
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.7
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.8
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 0.9
+
+python main.py --gpu-id 0 --model-name resnet18_nobias_nobn --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --exact --correction --ground-metric euclidean --weight-stats \
+--activation-histograms --activation-mode raw --geom-ensemble-type acts --sweep-id 21 \
+--act-num-samples 200 --ground-metric-normalize none --activation-seed 21 --prelu-acts --recheck-acc \
+--load-models ./resnet_models/ --ckpt-type best --past-correction --not-squared  --dataset Cifar10 \
+--handle-skips --ensemble-step 1.0
+
+

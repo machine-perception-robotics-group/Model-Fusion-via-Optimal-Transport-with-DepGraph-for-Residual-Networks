@@ -1,0 +1,6 @@
+[submodule "improve_otfusion/src/ext_pkg/Torch-Pruning"]
+	path = improve_otfusion/src/ext_pkg/Torch-Pruning
+	url = https://github.com/VainF/Torch-Pruning.git
+[submodule "data/improve_otfusion/src/ext_pkg/Torch-Pruning"]
+	path = data/improve_otfusion/src/ext_pkg/Torch-Pruning
+	url = https://github.com/VainF/Torch-Pruning.git

@@ -1,0 +1,3 @@
+Torch-Pruning
+DepGraphの公式リポジトリ（https://github.com/VainF/Torch-Pruning）
+使用したのは、v1.5.1

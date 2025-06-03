@@ -1,0 +1,79 @@
+# 結果を得るのに使用したコマンド
+# OTFusionの公式リポジトリ（https://github.com/sidak/otfusion）を使用を使用
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.0
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.1
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.2
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.3
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.4
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.5
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.6
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.7
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.8
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 0.9
+
+python main.py --gpu-id 0 --model-name vgg11_nobias --n-epochs 300 --save-result-file sample.csv \
+--sweep-name exp_sample --correction --ground-metric euclidean --weight-stats \
+--geom-ensemble-type wts --ground-metric-normalize none --sweep-id 90 --load-models ./cifar_models/ \
+--ckpt-type best --dataset Cifar10 --ground-metric-eff --recheck-cifar --activation-seed 21 \
+--prelu-acts --past-correction --not-squared --normalize-wts --exact \
+ --ensemble-step 1.0

@@ -1,5 +1,6 @@
 # Model Fusion via Optimal Transport with DepGraph for Residual Networks 
 "DepGraphを用いたグループ単位の整列とバッチ正規化層における統計量の再計算を実装したOT Fusion
+モデルマージのチュートリアル資料：[Link](https://speakerdeck.com/rei0108/tiyutoriaru-moderumazi)
 
 ## 環境
 
